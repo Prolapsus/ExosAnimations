@@ -25,3 +25,11 @@ body {
   position: relative;
 }
 
+.rond {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  animation: 3s linear infinite changeColor;
+}

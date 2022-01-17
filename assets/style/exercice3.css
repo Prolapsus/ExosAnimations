@@ -1,0 +1,24 @@
+#gauche {
+    background-color: white;
+}
+#milieu {
+    background-color: black;
+    animation-delay: -2s;
+}
+#droite {
+    background-color: grey;
+    animation-delay: -1s;
+}
+/* animation-delay negatifs pour que chaque boule soit bien dans la bonne timiline avec sa couleur de base et pour que l'animation commence directement sans latence au départ */
+
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: black;
+    }
+}
