@@ -1,0 +1,15 @@
+
+.menu {
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 60px;
+    height: 20px;
+}
+
+.menu:hover {
+    height : 780px;
+    transition: 1s;
+}
