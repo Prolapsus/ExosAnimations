@@ -1,6 +1,7 @@
 .carre {
-    width: 100px;
-    height: 100px;
+    margin-left : 20px;
+    width: 80px;
+    height: 80px;
     background-color: yellow;
     animation : 4s linear infinite alternate rotate;
 }

@@ -8,8 +8,8 @@
     padding: 20px;
     border : 1px solid black;
     border-radius: 30px;
-    margin: 50px auto;
-    width: 700px;
+    margin: 10px auto;
+    width: 500px;
     height : 400px;
 }
 @keyframes rotation {
@@ -28,11 +28,11 @@
     25% {
         background-color: yellow;
         top: 30px;
-        left: 630px;
+        left: 430px;
     }
     50%{
         background-color: blue;
-        left: 630px;
+        left: 430px;
         top: 330px;
     }
     75% {
@@ -46,39 +46,31 @@
         top: 30px;
     }
 }
- 
-#littleBox1 {
+
+.littleBox {
+    position:absolute;
     text-align: center;
     width: 30px;
     height : 30px;
     line-height: 30px;
+}
+
+#littleBox1 {
     animation: 5s ease-in-out infinite movingColor, 2s linear infinite rotation;
     background-color: green;
-  }
+}
 #littleBox2 {
-    text-align: center;
-    width: 30px;
-    height : 30px;
-    line-height: 30px;
     animation: 5s ease-in-out 1s infinite movingColor, 2s linear infinite rotation;
     background-color: blue;
-  }
+}
 #littleBox3 {
-    text-align: center;
-    width: 30px;
-    height : 30px;
-    line-height: 30px;
     animation: 5s ease-in-out 2s infinite movingColor, 2s linear infinite rotation;
     background-color: yellow;
-  }
+}
 #littleBox4 {
-    text-align: center;
-    width: 30px;
-    height : 30px;
-    line-height: 30px;
     animation: 5s ease-in-out 3s infinite movingColor, 2s linear infinite rotation;
     background-color: red;
-  }
+}
 
 
  
