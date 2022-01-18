@@ -46,14 +46,6 @@
     }
 }
 
-.littleBox {
-    position:absolute;
-    text-align: center;
-    width: 30px;
-    height : 30px;
-    line-height: 30px;
-}
-
 #littleBox1 {
     animation: 8s ease-in-out infinite movingColor;
     background-color: green;
