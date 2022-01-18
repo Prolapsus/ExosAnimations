@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-#container {
+.container {
+    position: relative;
     padding: 20px;
     border : 1px solid black;
     border-radius: 30px;
@@ -12,13 +13,7 @@
     width: 500px;
     height : 400px;
 }
-@keyframes rotation {
-    0% {
-    }
-    100% {
-        transform : rotate(720deg)
-    }
-}
+
 @keyframes movingColor {
     0% {
         background-color: red;
@@ -26,21 +21,25 @@
         top: 30px;
     }
     25% {
+        transform : rotate(180deg);
         background-color: yellow;
         top: 30px;
         left: 430px;
     }
     50%{
+        transform : rotate(360deg);
         background-color: blue;
         left: 430px;
         top: 330px;
     }
     75% {
+        transform : rotate(540deg);
         background-color: green;
         left: 30px;
         top: 330px;
     }
     100% {
+        transform : rotate(720deg);
         background-color: red;
         left: 30px;
         top: 30px;
@@ -56,19 +55,19 @@
 }
 
 #littleBox1 {
-    animation: 5s ease-in-out infinite movingColor, 2s linear infinite rotation;
+    animation: 8s ease-in-out infinite movingColor;
     background-color: green;
 }
 #littleBox2 {
-    animation: 5s ease-in-out 1s infinite movingColor, 2s linear infinite rotation;
+    animation: 8s ease-in-out 1s infinite movingColor;
     background-color: blue;
 }
 #littleBox3 {
-    animation: 5s ease-in-out 2s infinite movingColor, 2s linear infinite rotation;
+    animation: 8s ease-in-out 2s infinite movingColor;
     background-color: yellow;
 }
 #littleBox4 {
-    animation: 5s ease-in-out 3s infinite movingColor, 2s linear infinite rotation;
+    animation: 8s ease-in-out 3s infinite movingColor;
     background-color: red;
 }
 

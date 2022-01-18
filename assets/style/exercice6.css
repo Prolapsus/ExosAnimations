@@ -1,15 +1,16 @@
 
 .menu {
+    margin-left: 50px;
     border-radius: 8px;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
     width: 60px;
     height: 20px;
+    line-height: 20px;
+    transition: 1s;
 }
 
 .menu:hover {
-    height : 780px;
-    transition: 1s;
+    height : 340px;
 }

@@ -1,5 +1,6 @@
 .rond {
     display: inline-block;
+    margin: 50px auto;
     height: 100px;
     width: 100px;
     border-radius: 50%;
